@@ -152,7 +152,7 @@ public class ResourceCentre {
 
 
 		for (int i = 0; i < chromebookList.size(); i++) {
-			output += String.format("%-84s\n", chromebookList.get(i).toString());
+			output += String.format("%-84\n", chromebookList.get(i).toString());
 			//output += String.format("%-10s %-20s %-10s %-10s %-20s\n", chromebookList.get(i).getAssetTag(),
 					//hromebookList.get(i).getDescription(), 
 					//ResourceCentre.showAvailability(chromebookList.get(i).getIsAvailable()),
